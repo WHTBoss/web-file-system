@@ -1,24 +1,26 @@
-# myfirstproject
+# 文件系统前端项目
 
-## Project setup
+## dist目录
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+该目录可以直接观看前端项目
 ```
 
-### Compiles and minifies for production
+### Linux安装项目（docker-compose）
 ```
-npm run build
+1.安装docker与docker-compose
+2.开放端口80
+   firewall-cmd --zone=public --add-port=80/tcp --permanent
+   firewall-cmd --reload
+3.下载FileSystem.tar.gz文件并解压缩
+4.进入FileSystem目录
+5.运行docker-compose up命令
+6.浏览器输入ip地址查看项目
 ```
 
-### Lints and fixes files
+### 作者联系
+
 ```
-npm run lint
+微信: 18779255721
+QQ: 2164591400
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
