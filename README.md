@@ -24,6 +24,7 @@
 ### Linux安装项目（docker-compose）
 ```
 1.安装docker(版本：24.0.7)与docker-compose(版本：2.21.0)
+   可以看该安装方法：https://github.com/WHTBoss/docker-compose-install
 2.开放端口80
    firewall-cmd --zone=public --add-port=80/tcp --permanent
    firewall-cmd --reload
